@@ -6,4 +6,4 @@ include_directories(include)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_LIST_DIR}")
 
-add_executable(${PROJECT_NAME} src/car.cpp src/main.cpp)
+add_executable(${PROJECT_NAME} src/vehicle.cpp src/car.cpp src/motorbike.cpp src/main.cpp)

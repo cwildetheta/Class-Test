@@ -22,3 +22,39 @@ void car::Stop_engine()
         std::cout << "The engine is already off." << std::endl;
     }
 }
+std::string car::adder(std::string str1, std::string str2)
+{
+    return (str1 + str2);
+}
+int car::adder(int num1, int num2)
+{
+    return (num1 + num2);
+}
+
+//SETS//
+void car::set_car_make(std::string cmk)
+{
+    Make = cmk;
+}
+void car::set_car_model(std::string cmd)
+{
+    Model = cmd;
+}
+void car::set_engine_on(bool eng)
+{
+    Engine_on = eng;
+}
+
+//GETS//
+std::string car::get_car_make()
+{
+    return Make;
+}
+std::string car::get_car_model()
+{
+    return Model;
+}
+bool car::get_engine_on()
+{
+    return Engine_on;
+}
